@@ -1,0 +1,224 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"TSTMFR":15,"PJNLID":15,"HAEQOB":30}',
+    spacing_below: small, background: 'theme:Gray 50'}
+  name: content_panel
+  layout_properties: {grid_position: 'JGSNDJ,QOSTYT'}
+  components:
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'store:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_5
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,DFLXKG KWIYAV,PSEZVO
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: store_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: store_label
+    layout_properties: {grid_position: 'QKLUVJ,DFLXKG KWIYAV,YVVKRI', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'purchase date:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_3
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,DFLXKG KKNQLW,AVLNIQ
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: date_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: date_label
+    layout_properties: {grid_position: 'QKLUVJ,DFLXKG KKNQLW,ALNHCI', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'logistic company:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_6
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,DFLXKG EJCWZB,TPPXZE
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: 'logis_label
+
+        ', font: '', spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: logis_label
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,DFLXKG EJCWZB,GFOFVM
+      full_width_row: false
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'price:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_2
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,PLFCLO MVABIH,TSTMFR
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: price_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: price_label
+    layout_properties: {grid_position: 'QKLUVJ,PLFCLO MVABIH,PJNLID'}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'reference no:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,PLFCLO JYDHNA,NXOSMV
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: ref_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: refno_label
+    layout_properties: {grid_position: 'QKLUVJ,PLFCLO JYDHNA,NNJTVK', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'tracking code:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_7
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,PLFCLO RHSKEU,SDYTSM
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: 'track_code
+
+        ', font: '', spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: track_code_label
+    layout_properties:
+      col_widths: {}
+      grid_position: QKLUVJ,PLFCLO RHSKEU,ABYFPY
+      full_width_row: false
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'status:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_4
+    layout_properties:
+      col_widths: {}
+      grid_position: PHCIGR,CLFBFH
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: status_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: status_label
+    layout_properties: {grid_position: 'PHCIGR,NNOFGV', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'shipping:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_8
+    layout_properties:
+      col_widths: {}
+      grid_position: PHCIGR,DAOTAY
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: shipping_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: shipping_label
+    layout_properties:
+      col_widths: {}
+      grid_position: PHCIGR,POXJEC
+      full_width_row: false
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'contract address:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_9
+    layout_properties:
+      col_widths: {}
+      grid_position: BUNCZV,OUGVNJ
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: conadd_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: conadd_label
+    layout_properties:
+      col_widths: {}
+      grid_position: BUNCZV,AFFIYI
+      full_width_row: false
+    components: []
+  - type: Spacer
+    properties: {height: 6}
+    name: spacer_2
+    layout_properties: {grid_position: 'KMTSUQ,LKYIQN'}
+  - type: Spacer
+    properties: {visible: true, spacing_above: small, spacing_below: small, height: 0,
+      tooltip: ''}
+    name: spacer_1
+    layout_properties: {grid_position: 'HZTDDD,VNJJJM', row_background: 'theme:Gray
+        300'}
+  - type: RichText
+    properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: '', font: '', spacing_above: small,
+      spacing_below: small, data: null, background: '', format: markdown}
+    name: rich_text_1
+    layout_properties: {grid_position: 'NZKARE,HAEQOB'}
+    components:
+    - type: Button
+      properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+        foreground: 'theme:White', visible: true, text: confirm / refund, font_size: null,
+        font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '#ff0000', bold: false, underline: false, icon: ''}
+      name: button
+      layout_properties: {grid_position: 'QKLUVJ,PLFCLO XRHZYI,XXOQSI'}
+      event_bindings: {click: button_click}
+is_package: true
+custom_component: true
+properties:
+- {name: store, type: string, default_value: '', default_binding_prop: true}
+- {name: refund_button, type: object, default_binding_prop: false, description: refund function}
+- {name: date, type: string, default_value: '', default_binding_prop: false}
+- {name: ref, type: string, default_value: '', default_binding_prop: false}
+- {name: status, type: string, default_value: '', default_binding_prop: false}
+- {name: price, type: number, default_value: '', default_binding_prop: false}
+- {name: logis, type: string, default_value: '', default_binding_prop: false}
+- {name: trackcode, type: string, default_value: '', default_binding_prop: false}
+- {name: ship, type: string, default_value: '', default_binding_prop: false}
+- {name: conadd, type: string, default_value: '', default_binding_prop: false}

@@ -1,0 +1,49 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {grid_position: 'YRXQGK,VAQERH'}
+  components:
+  - type: Image
+    properties: {height: 306}
+    name: item_image
+    layout_properties: {grid_position: 'AZCHZI,EBRFJE'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: NIKE DUNK LOW (PANDA), font_size: 18, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: item_name
+    layout_properties: {grid_position: 'PNYEWZ,SOTANS'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: HK$ 2299, font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: item_price
+    layout_properties: {grid_position: 'CFRDYY,JCTANJ'}
+  - type: Label
+    properties: {role: null, align: right, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Size:', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: item_size_label
+    layout_properties: {grid_position: 'CFRDYY,ICHTQU'}
+  - type: DropDown
+    properties: {}
+    name: item_size_select
+    layout_properties: {grid_position: 'CFRDYY,XPGFNB'}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Add To Cart, font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: 'fa:cart-arrow-down'}
+    name: item_add_button
+    layout_properties: {grid_position: 'KYYFQB,LOCTQH'}
+    event_bindings: {click: item_add_button_click}
+is_package: true
+custom_component: false
+properties: []

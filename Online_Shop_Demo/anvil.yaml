@@ -1,0 +1,230 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/google.yml
+  client_config:
+    app_files:
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      embedLink: https://docs.google.com/spreadsheets/d/1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM/htmlembed?ouid=116040796581911358542
+      copyRequiresWriterPermission: false
+      python_name: orders_set
+      explicitlyTrashed: false
+      lastModifyingUser:
+        kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      shared: true
+      createdDate: '2022-04-12T05:22:24.843Z'
+      id: 1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM
+      owners:
+      - kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 1-msQpvCGVhTHFMY739LygxMnpO6DuwgG, selfLink: 'https://www.googleapis.com/drive/v2/files/1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM/parents/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        isRoot: false}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.spreadsheet
+      selfLink: https://www.googleapis.com/drive/v2/files/1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM
+      lastViewedByMeDate: '2022-04-12T09:53:07.565Z'
+      userPermission: {kind: drive#permission, etag: '"AMiydUu6aFoZXuPPUhZCru8m3V0"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM/permissions/me',
+        role: owner, type: user, pendingOwner: false}
+      lastModifyingUserName: CHUJAIB ANDY
+      etag: '"MTY0OTc1NzE4NzU2NQ"'
+      kind: drive#file
+      modifiedByMeDate: '2022-04-12T09:53:07.565Z'
+      title: XShop - Orders
+      version: '36'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '1024'
+      alternateLink: https://docs.google.com/spreadsheets/d/1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM/edit?usp=drivesdk
+      mimeType: application/vnd.google-apps.spreadsheet
+      modifiedDate: '2022-04-12T09:53:07.565Z'
+      quotaBytesUsed: '1024'
+      exportLinks: {x-vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=ods',
+        tab-separated-values: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=tsv',
+        pdf: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=pdf',
+        vnd.openxmlformats-officedocument.spreadsheetml.sheet: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=xlsx',
+        csv: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=csv',
+        zip: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=zip',
+        vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&exportFormat=ods'}
+      $$hashKey: object:896
+      thumbnailLink: https://docs.google.com/feeds/vt?gd=true&id=1mcmRjPe4CKydvogoqzx4oC9rPMV6n8t19Jo2rX2NBRM&v=17&s=AMedNnoAAAAAYlVtM7LiePzpmhRM8QkvmQ4_7IRQs34t&sz=s220
+      ownerNames: [CHUJAIB ANDY]
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      embedLink: https://docs.google.com/spreadsheets/d/1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA/htmlembed?ouid=116040796581911358542
+      copyRequiresWriterPermission: false
+      python_name: shipping_set
+      explicitlyTrashed: false
+      sharedWithMeDate: '2022-04-10T08:08:53.897Z'
+      lastModifyingUser:
+        kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      shared: true
+      createdDate: '2022-04-12T05:27:04.358Z'
+      id: 1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA
+      owners:
+      - kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 1-msQpvCGVhTHFMY739LygxMnpO6DuwgG, selfLink: 'https://www.googleapis.com/drive/v2/files/1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA/parents/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        isRoot: false}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.spreadsheet
+      selfLink: https://www.googleapis.com/drive/v2/files/1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA
+      lastViewedByMeDate: '2022-04-12T09:55:25.917Z'
+      userPermission: {kind: drive#permission, etag: '"i-UFrE1PIAQrHf6WKCUBly9rZrg"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA/permissions/me',
+        role: owner, type: user, pendingOwner: false}
+      lastModifyingUserName: CHUJAIB ANDY
+      etag: '"MTY0OTc1NzMyNTkxNw"'
+      kind: drive#file
+      modifiedByMeDate: '2022-04-12T09:55:25.917Z'
+      title: XShop - shipping
+      version: '22'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '1024'
+      alternateLink: https://docs.google.com/spreadsheets/d/1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA/edit?usp=drivesdk
+      mimeType: application/vnd.google-apps.spreadsheet
+      modifiedDate: '2022-04-12T09:55:25.917Z'
+      quotaBytesUsed: '1024'
+      exportLinks: {x-vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=ods',
+        tab-separated-values: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=tsv',
+        pdf: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=pdf',
+        vnd.openxmlformats-officedocument.spreadsheetml.sheet: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=xlsx',
+        csv: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=csv',
+        zip: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=zip',
+        vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&exportFormat=ods'}
+      $$hashKey: object:1143
+      thumbnailLink: https://docs.google.com/feeds/vt?gd=true&id=1h-qvQPbd0KlkxqP5hZLlMRBnswzHEB0Wt5odOPz77iA&v=5&s=AMedNnoAAAAAYlVtM0GkBHGyNii_QjqeABspKJvQ1Lof&sz=s220
+      ownerNames: [CHUJAIB ANDY]
+    - capabilities: {canCopy: true, canEdit: true}
+      editable: true
+      copyable: true
+      embedLink: https://docs.google.com/spreadsheets/d/1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk/htmlembed?ouid=116040796581911358542
+      copyRequiresWriterPermission: false
+      python_name: champayne_db
+      explicitlyTrashed: false
+      sharedWithMeDate: '2022-04-10T08:08:53.897Z'
+      lastModifyingUser:
+        kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      shared: true
+      createdDate: '2022-04-12T10:12:41.323Z'
+      id: 1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk
+      owners:
+      - kind: drive#user
+        displayName: CHUJAIB ANDY
+        picture: {url: 'https://lh3.googleusercontent.com/a-/AOh14GjymR-8t-BDHaiEMIahizGAltgy3eRaA2X1G2ocWw=s64'}
+        isAuthenticatedUser: true
+        permissionId: 01456427544919883564
+        emailAddress: andy20049240@gmail.com
+      markedViewedByMeDate: '1970-01-01T00:00:00.000Z'
+      spaces: [drive]
+      parents:
+      - {kind: drive#parentReference, id: 1-msQpvCGVhTHFMY739LygxMnpO6DuwgG, selfLink: 'https://www.googleapis.com/drive/v2/files/1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk/parents/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        parentLink: 'https://www.googleapis.com/drive/v2/files/1-msQpvCGVhTHFMY739LygxMnpO6DuwgG',
+        isRoot: false}
+      labels: {starred: false, hidden: false, trashed: false, restricted: false, viewed: true}
+      iconLink: https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.spreadsheet
+      selfLink: https://www.googleapis.com/drive/v2/files/1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk
+      lastViewedByMeDate: '2022-04-12T10:12:57.769Z'
+      userPermission: {kind: drive#permission, etag: '"xPMQhAhC90nuN7jpJ5xGhjqpTXY"',
+        id: me, selfLink: 'https://www.googleapis.com/drive/v2/files/1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk/permissions/me',
+        role: owner, type: user, pendingOwner: false}
+      lastModifyingUserName: CHUJAIB ANDY
+      etag: '"MTY0OTc1ODM3Nzc2OQ"'
+      kind: drive#file
+      modifiedByMeDate: '2022-04-12T10:12:57.769Z'
+      title: champayne_db
+      version: '5'
+      appDataContents: false
+      writersCanShare: true
+      fileSize: '1024'
+      alternateLink: https://docs.google.com/spreadsheets/d/1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk/edit?usp=drivesdk
+      mimeType: application/vnd.google-apps.spreadsheet
+      modifiedDate: '2022-04-12T10:12:57.769Z'
+      quotaBytesUsed: '1024'
+      exportLinks: {x-vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=ods',
+        tab-separated-values: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=tsv',
+        pdf: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=pdf',
+        vnd.openxmlformats-officedocument.spreadsheetml.sheet: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=xlsx',
+        csv: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=csv',
+        zip: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=zip',
+        vnd.oasis.opendocument.spreadsheet: 'https://docs.google.com/spreadsheets/export?id=1LttPM3IYweY19VPkb1bvDQ4ZQ45dzyjqlv_-_j6Hnwk&exportFormat=ods'}
+      $$hashKey: object:192009
+      thumbnailLink: https://docs.google.com/feeds/vt?gd=true&id=1WoavXYIK46AWmvKvqYgCZrs2GSGPzwhXCqoWTzrVoOM&v=27&s=AMedNnoAAAAAYlU9yVT8XjPgwb81rcxpaDmuh9jYqXj7&sz=s220
+      ownerNames: [CHUJAIB ANDY]
+  server_config: {enc_delegation_refresh_token: 7wDbZUypRKn/uKdMerJyHFSBPwNdz4rShx5PsCaXHsboBDjIdQptiAx9+nB8WFvoXv2RJYrJDUU/jDL2TGJ0QEyCaNvDDlylq6XFOjcp9PBlf3DdgGKuABfba0VdAVT/Xp+tf1vUBeUCev3f0omxziC6tBop+7qVsmRvwZvXPv2gs4i5tnP/YBzQ9X/JT+Z91zpBITnUEJBnefMwLRdqZWZpCWTb6LQSaXzw0ctGMXBZ5aFiUTJfEruIMZ7fOxKikouGaoT6UuD5MwOWW+t9G5mlOYefbSUfqMweR+rHX7fr+1dzPU/Q3C7HSvd/FQ==}
+package_name: Online_Shop_Demo
+allow_embedding: false
+name: Online Shop Demo
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox}
+metadata: {title: X SHOP, description: This is an demo online shop for Champayne payment gateway,
+  logo_img: 'asset:close.png'}
+startup_form: Base
+db_schema:
+  items:
+    title: items
+    client: none
+    server: full
+    columns:
+    - name: item_id
+      admin_ui: {width: 200}
+      type: string
+    - name: item_brand
+      admin_ui: {width: 200}
+      type: string
+    - name: item_name
+      admin_ui: {width: 234}
+      type: string
+    - name: item_image
+      admin_ui: {width: 200}
+      type: media
+    - name: item_price
+      admin_ui: {width: 200}
+      type: number
+  item_size:
+    title: item_size
+    client: none
+    server: full
+    columns:
+    - name: item_id
+      admin_ui: {width: 200}
+      type: string
+    - name: item_size
+      admin_ui: {width: 200}
+      type: string
+renamed: true

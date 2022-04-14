@@ -1,0 +1,137 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"CWNKNV":15,"KBCDJR":45,"TSTMFR":15,"PJNLID":45,"JZHRTK":15,"VXIKSJ":45,"YNLCSH":15,"PXYXPU":45,"ENILYH":15,"SGNEOH":45}',
+    spacing_below: small, background: 'theme:Gray 50'}
+  name: content_panel
+  layout_properties:
+    col_widths: {}
+    grid_position: RWPUNG,XITTSS
+  components:
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'purchase date:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_3
+    layout_properties:
+      col_widths: {}
+      grid_position: FYXNRW,JZHRTK
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: date_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: date_label
+    layout_properties: {grid_position: 'FYXNRW,VXIKSJ', full_width_row: false}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'store:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_5
+    layout_properties:
+      col_widths: {}
+      grid_position: ADROLJ,YNLCSH
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: store_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: store_label
+    layout_properties: {grid_position: 'ADROLJ,PXYXPU', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'price:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_2
+    layout_properties:
+      col_widths: {}
+      grid_position: MVABIH,TSTMFR
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: price_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: price_label
+    layout_properties: {grid_position: 'MVABIH,PJNLID'}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'reference no:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy
+    layout_properties:
+      col_widths: {}
+      grid_position: HBMFGO,CWNKNV
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: refno_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: refno_label
+    layout_properties: {grid_position: 'HBMFGO,KBCDJR', full_width_row: false}
+    components: []
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'contract address:', font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: true, background: '', bold: true,
+      underline: true, icon: ''}
+    name: text_copy_4
+    layout_properties:
+      col_widths: {}
+      grid_position: CZLLMU,ENILYH
+      full_width_row: false
+  - type: RichText
+    properties: {role: null, align: center, tooltip: '', enable_slots: true, border: '',
+      foreground: '', visible: true, font_size: null, content: conadd_label, font: '',
+      spacing_above: small, spacing_below: small, data: null, background: 'theme:White',
+      format: markdown}
+    name: conadd_label
+    layout_properties:
+      col_widths: {}
+      grid_position: CZLLMU,SGNEOH
+      full_width_row: false
+    components: []
+  - type: ColumnPanel
+    properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: medium, col_widths: '{}',
+      spacing_below: medium, background: 'theme:Gray 200'}
+    name: column_panel
+    layout_properties: {grid_position: 'AQLDEB,WVOTQD'}
+    components:
+    - type: Button
+      properties: {role: secondary-color, align: full, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: Received, font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: Received
+      layout_properties: {grid_position: 'ENEQCN,WNELWE'}
+      event_bindings: {click: Received_click}
+    - type: Button
+      properties: {role: primary-color, align: full, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: refund, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: Refund
+      layout_properties: {grid_position: 'ENEQCN,WAZZZZ'}
+      event_bindings: {click: Refund_click}
+is_package: true
+custom_component: true
+properties:
+- {name: date, type: string, default_value: '', default_binding_prop: true}
+- {name: store, type: string, default_value: '', default_binding_prop: false}
+- {name: price, type: number, default_value: '', default_binding_prop: false}
+- {name: refno, type: string, default_value: '', default_binding_prop: false}
+- {name: transactionid, type: number, default_value: '', default_binding_prop: false}
+- {name: conadd, type: string, default_value: '', default_binding_prop: false}
